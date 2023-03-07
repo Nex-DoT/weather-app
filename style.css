@@ -17,4 +17,47 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(#000000c3,#000000c3),url(./img/1.jpg);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-size: cover;
+    
 }
+.box{
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin: 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.612);
+    padding: 10px 30px;
+}
+.box .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    position: relative;
+}
+.box .search input{
+    width: 120%;
+    height: 35px;
+    border-radius: 30px;
+    padding: 15px ;
+    background-color: #3a3a3a55;
+    border: none;
+    color: white;
+    font-size: 17px;
+    outline: none;
+}
+.box .search button{
+    background-color: #18181800;
+    color: white;
+    position: absolute;
+    right: 10px;
+    border: none;
+}
+.box .information{
+    margin: 15px 5px;
+}
+.box .information 
