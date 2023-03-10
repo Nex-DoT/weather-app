@@ -56,8 +56,15 @@ body{
     position: absolute;
     right: 10px;
     border: none;
+    cursor: pointer;
 }
 .box .information{
     margin: 15px 5px;
+    opacity: 0.8;
 }
-.box .information 
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 10px;
+}
