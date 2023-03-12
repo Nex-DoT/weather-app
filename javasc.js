@@ -14,7 +14,7 @@ const weatherapi = {
         console.log(name,icon,description,humidity,speed,temp);
         document.querySelector('.humidity').innerHTML= 'Humidity: '+humidity+'%'
         document.querySelector('.description').innerHTML=description;
-        document.querySelector('.temp').innerHTML=temp+'°c';
+        document.querySelector('.temp').innerHTML=(+temp).toFixed(0) +'°c';
         document.querySelector('.wind').innerHTML= 'Wind speed :'+speed+'km/h'
         document.querySelector('.icon').setAttribute('src' , "https://openweathermap.org/img/wn/"+icon+".png")
         document.querySelector('.name').innerHTML= 'Weather in '+ name
